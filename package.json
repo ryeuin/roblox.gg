@@ -1,0 +1,35 @@
+{
+  "name": "roblox.js",
+  "version": "1.0.0",
+  "description": "Lightweight ROBLOX api wrapper",
+  "types": "./dist/types/index.d.ts",
+  "main": "./dist/esm/index.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.esm.json & tsc --project tsconfig.cjs.json",
+    "test": "node test/index.js"
+  },
+  "exports": {
+    "import": "./dist/esm/index.js",
+    "require": "./dist/cjs/index.js",
+    "default": "./dist/esm/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryeuin/roblox.js.git"
+  },
+  "keywords": [
+    "roblox",
+    "api",
+    "roblox-api",
+    "api-wrapper"
+  ],
+  "author": "ryeuin",
+  "license": "EPL-2.0",
+  "bugs": {
+    "url": "https://github.com/ryeuin/roblox.js/issues"
+  },
+  "homepage": "https://github.com/ryeuin/roblox.js#readme",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
