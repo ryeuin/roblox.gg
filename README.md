@@ -1,80 +1,34 @@
-[![Forks][forks-shield]][forks-url]
-
-[![Stargazers][stars-shield]][stars-url]
-
-[![Issues][issues-shield]][issues-url]
-
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-<!-- PROJECT LOGO -->
-
-<br />
-
 <p  align="center">
-
-<a  href="https://github.com/ryeuin/roblox.gg/blob/main/roblox.gg.png?raw=true">
-
 <img  src="https://github.com/ryeuin/roblox.gg/blob/main/roblox.gg.round.png?raw=true"  alt="Logo"  width="140">
-
-</a>
 
 <h3  align="center">roblox.gg</h3>
 
 <p  align="center">
-
 Lightweight ROBLOX api wrapper
-
 <br />
-
+<p align="center">
 <a  href="gg.ryeuin.ml"><strong>Explore the docs »</strong></a>
 
-<br />
+<a  href="https://yarnpkg.com/package/roblox.gg">View on Yarn</a> · <a  href="https://npmjs.org/package/roblox.gg">View on NPM</a> · <a  href="https://github.com/ryeuin/roblox.gg">Github</a></a>
 
-<br />
-
-<a  href="https://yarnpkg.com/package/roblox.gg">View on Yarn</a>
-
-·
-
-<a  href="https://npmjs.org/package/roblox.gg">View on NPM</a>
-
-·
-
-<a  href="https://github.com/ryeuin/roblox.gg/issues">Request Feature</a>
-
+</p>
 </p>
 
 </p>
 
-<!-- ABOUT THE PROJECT -->
+## About
 
-## About The Project
+```mermaid
+graph LR
+A[Request] -- X-CSRF-Token --> B((Roblox API))
+B --> D{You}
+```
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-There are many great README templates available on GitHub, however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
-
-Here's why:
-
-- Your time should be focused on creating something amazing. A project that solves a problem and helps others
-
-- You shouldn't be doing the same tasks over and over like creating a README from scratch
-
-- You should element DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+Roblox.gg is a lightweight NPM package with support for **common js**, **module js**, and **typescript**.
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-- [Bootstrap](https://getbootstrap.com)
-
-- [JQuery](https://jquery.com)
-
-- [Laravel](https://laravel.com)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1024px-Typescript_logo_2020.svg.png" width="35" align="center"></img>  <img src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png" width="35" align="center"></img>
 
 <!-- GETTING STARTED -->
 
