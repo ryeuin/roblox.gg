@@ -1,5 +1,5 @@
 {
-  "name": "roblox.js",
+  "name": "roblox.gg",
   "version": "1.0.0",
   "description": "Lightweight ROBLOX api wrapper",
   "types": "./dist/types/index.d.ts",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryeuin/roblox.js.git"
+    "url": "git+https://github.com/ryeuin/roblox.gg.git"
   },
   "keywords": [
     "roblox",
@@ -26,9 +26,9 @@
   "author": "ryeuin",
   "license": "EPL-2.0",
   "bugs": {
-    "url": "https://github.com/ryeuin/roblox.js/issues"
+    "url": "https://github.com/ryeuin/roblox.gg/issues"
   },
-  "homepage": "https://github.com/ryeuin/roblox.js#readme",
+  "homepage": "https://github.com/ryeuin/roblox.gg#readme",
   "devDependencies": {
     "typescript": "^4.8.4"
   }
