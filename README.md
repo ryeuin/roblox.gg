@@ -1,31 +1,49 @@
 [![Forks][forks-shield]][forks-url]
+
 [![Stargazers][stars-shield]][stars-url]
+
 [![Issues][issues-shield]][issues-url]
+
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
+
 <br />
-<p align="center">
-  <a href="https://github.com/ryeuin/roblox.gg/blob/main/roblox.gg.png?raw=true">
-    <img src="https://github.com/ryeuin/roblox.gg/blob/main/roblox.gg.png?raw=true" alt="Logo" width="80" height="80">
-  </a>
 
-  <h3 align="center">Read Me Template</h3>
+<p  align="center">
 
-  <p align="center">
-    A Read Me template for your projects!
-    <br />
-    <a href="https://github.com/roshanlam/ReadMeTemplate/"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/roshanlam/ReadMeTemplate/">View Demo</a>
-    ·
-    <a href="https://github.com/roshanlam/ReadMeTemplate/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/roshanlam/ReadMeTemplate/issues">Request Feature</a>
-    ·
-    <a href="https://github.com/roshanlam/ReadMeTemplate/pulls">Send a Pull Request</a>
-  </p>
+<a  href="https://github.com/ryeuin/roblox.gg/blob/main/roblox.gg.png?raw=true">
+
+<img  src="https://github.com/ryeuin/roblox.gg/blob/main/roblox.gg.round.png?raw=true"  alt="Logo"  width="140">
+
+</a>
+
+<h3  align="center">roblox.gg</h3>
+
+<p  align="center">
+
+Lightweight ROBLOX api wrapper
+
+<br />
+
+<a  href="gg.ryeuin.ml"><strong>Explore the docs »</strong></a>
+
+<br />
+
+<br />
+
+<a  href="https://yarnpkg.com/package/roblox.gg">View on Yarn</a>
+
+·
+
+<a  href="https://npmjs.org/package/roblox.gg">View on NPM</a>
+
+·
+
+<a  href="https://github.com/ryeuin/roblox.gg/issues">Request Feature</a>
+
+</p>
+
 </p>
 
 <!-- ABOUT THE PROJECT -->
@@ -39,7 +57,9 @@ There are many great README templates available on GitHub, however, I didn't fin
 Here's why:
 
 - Your time should be focused on creating something amazing. A project that solves a problem and helps others
+
 - You shouldn't be doing the same tasks over and over like creating a README from scratch
+
 - You should element DRY principles to the rest of your life :smile:
 
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
@@ -51,7 +71,9 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 - [Bootstrap](https://getbootstrap.com)
+
 - [JQuery](https://jquery.com)
+
 - [Laravel](https://laravel.com)
 
 <!-- GETTING STARTED -->
@@ -59,6 +81,7 @@ This section should list any major frameworks that you built your project using.
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
+
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
@@ -68,28 +91,37 @@ This is an example of how to list things you need to use the software and how to
 - npm
 
 ```sh
+
 npm install npm@latest -g
+
 ```
 
 ### Installation
 
 1. Get a free API Key at [https://example.com](https://example.com)
+
 2. Clone the repo
 
 ```sh
+
 git clone https://github.com/your_username_/Project-Name.git
+
 ```
 
 3. Install NPM packages
 
 ```sh
+
 npm install
+
 ```
 
 4. Enter your API in `config.js`
 
 ```JS
-const API_KEY = 'ENTER YOUR API';
+
+const  API_KEY  =  'ENTER YOUR API';
+
 ```
 
 <!-- USAGE EXAMPLES -->
@@ -113,9 +145,13 @@ See the [open issues](https://github.com/roshanlam/ReadMeTemplate/issues) for a 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **extremely appreciated**.
 
 1. Fork the Project
+
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
+
 5. Open a Pull Request
 
 <!-- LICENSE -->
@@ -139,11 +175,15 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 ## Acknowledgements
 
 - [Img Shields](https://shields.io)
+
 - [GitHub Pages](https://pages.github.com)
+
 - [Font Awesome](https://fontawesome.com)
+
 - blah blah blah....
 
 <!-- MARKDOWN LINKS & IMAGES -->
+
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [forks-shield]: https://img.shields.io/github/forks/roshanlam/ReadMeTemplate?style=for-the-badge
@@ -154,3 +194,31 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [issues-url]: https://github.com/roshanlam/ReadMeTemplate/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/roshan-lamichhane
+
+**strong text**
+
+## UML diagrams
+
+You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
+
+```mermaid
+sequenceDiagram
+Alice ->> Bob: Hello Bob, how are you?
+Bob-->>John: How about you John?
+Bob--x Alice: I am good thanks!
+Bob-x John: I am good thanks!
+Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+
+Bob-->Alice: Checking with John...
+Alice->John: Yes... John, how are you?
+```
+
+And this will produce a flow chart:
+
+```mermaid
+graph LR
+A[Square Rect] -- Link text --> B((Circle))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
+```
