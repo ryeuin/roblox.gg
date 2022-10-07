@@ -1,0 +1,13 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    ".npmrc": true,
+    ".gitattributes": true,
+    "**/dist": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true
+  }
+}
