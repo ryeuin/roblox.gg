@@ -1,1 +1,2 @@
-export declare function GetVersion(Version: Number): Promise<void>;
+import GetAvatar from "./user/GetAvatar";
+export { GetAvatar };

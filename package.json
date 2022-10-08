@@ -31,5 +31,9 @@
   "homepage": "https://github.com/ryeuin/roblox.gg#readme",
   "devDependencies": {
     "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "phin": "^3.6.1",
+    "ts-node": "^10.9.1"
   }
 }

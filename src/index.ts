@@ -1,3 +1,3 @@
-export async function GetVersion(Version: Number) {
-  console.log(Version);
-}
+import GetAvatar from "./user/GetAvatar";
+
+export { GetAvatar };
